@@ -2,7 +2,7 @@
 
 <%= @countries %>
 
-<%= @countries.each do |countries| %>
+<%= @countries.each do |country| %>
 
 <p><%= countries.population %></p>
 <ul>
@@ -19,3 +19,5 @@
 	<a href="/countries/new">Create new country</a>
 	<a href="/countries/<%= countries.id %>/edit"> edit </a>
 <% end %>
+
+

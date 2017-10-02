@@ -32,13 +32,13 @@ class CountriesController < ApplicationController
 
     @country.save
 
-    redirect_to "/country"
+    redirect_to "/countries"
   end
 
   def destroy
     Country.find(params[:id]).destroy
 
-    redirect_to "/country"
+    redirect_to "/countries"
   end
 end
 

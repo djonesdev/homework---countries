@@ -3285,3 +3285,749 @@ Processing by CountriesController#index as HTML
 Completed 200 OK in 20ms (Views: 16.6ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/countries/index" for 127.0.0.1 at 2017-10-02 22:09:50 +0100
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.4ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 226ms (Views: 214.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/countries/index" for 127.0.0.1 at 2017-10-02 22:09:51 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.4ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 21ms (Views: 16.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/countries/index" for 127.0.0.1 at 2017-10-02 22:09:52 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.5ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 25ms (Views: 21.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/countries/index" for 127.0.0.1 at 2017-10-02 22:09:52 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.4ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 20ms (Views: 16.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/countries/index" for 127.0.0.1 at 2017-10-02 22:10:52 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.2ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 21ms (Views: 16.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/countries/index" for 127.0.0.1 at 2017-10-02 22:10:53 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.3ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/countries/index" for 127.0.0.1 at 2017-10-02 22:10:53 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.2ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/countries/index" for 127.0.0.1 at 2017-10-02 22:11:39 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.3ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 31ms (Views: 27.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/countries/index" for 127.0.0.1 at 2017-10-02 22:11:50 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.4ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/countries/index/1" for 127.0.0.1 at 2017-10-02 22:12:59 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/countries/index/1"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/countries/1" for 127.0.0.1 at 2017-10-02 22:13:05 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/countries/1"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/countries/index/3" for 127.0.0.1 at 2017-10-02 22:13:11 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/countries/index/3"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/countries/index/3" for 127.0.0.1 at 2017-10-02 22:13:13 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/countries/index/3"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/countries/index/3" for 127.0.0.1 at 2017-10-02 22:19:36 +0100
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/countries/index/3"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:19:41 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.4ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 236ms (Views: 224.6ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:14 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.3ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:36 +0100
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:46 +0100
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:46 +0100
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:46 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.6ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 21ms (Views: 15.1ms | ActiveRecord: 2.3ms)
+
+
+Processing by CountriesController#index as HTML
+Processing by CountriesController#index as HTML
+Processing by CountriesController#index as HTML
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:46 +0100
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:46 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  Rendering countries/index.html.erb within layouts/application
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.4ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  [1m[36mCountry Load (2.1ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendering countries/index.html.erb within layouts/application
+  Rendered countries/index.html.erb within layouts/application (13.8ms)
+  Rendered countries/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 59ms (Views: 49.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:46 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+Completed 200 OK in 75ms (Views: 65.3ms | ActiveRecord: 2.1ms)
+
+
+  [1m[36mCountry Load (0.6ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:46 +0100
+  Rendered countries/index.html.erb within layouts/application (4.0ms)
+Processing by CountriesController#index as HTML
+  [1m[36mCountry Load (1.5ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  [1m[36mCountry Load (1.9ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (54.9ms)
+  Rendering countries/index.html.erb within layouts/application
+  Rendered countries/index.html.erb within layouts/application (59.0ms)
+  [1m[36mCountry Load (8.8ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+Completed 200 OK in 44ms (Views: 41.3ms | ActiveRecord: 0.6ms)
+
+
+  [1m[36mCountry Load (1.8ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (88.7ms)
+Completed 200 OK in 104ms (Views: 70.5ms | ActiveRecord: 32.2ms)
+
+
+  Rendered countries/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 103ms (Views: 67.3ms | ActiveRecord: 32.8ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:47 +0100
+Processing by CountriesController#index as HTML
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:47 +0100
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:20:47 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+Completed 200 OK in 164ms (Views: 97.2ms | ActiveRecord: 54.7ms)
+
+
+Processing by CountriesController#index as HTML
+Completed 200 OK in 83ms (Views: 76.5ms | ActiveRecord: 1.8ms)
+
+
+  [1m[36mCountry Load (3.5ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendering countries/index.html.erb within layouts/application
+  Rendering countries/index.html.erb within layouts/application
+  Rendered countries/index.html.erb within layouts/application (13.1ms)
+  [1m[36mCountry Load (2.1ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (4.3ms)
+  [1m[36mCountry Load (7.1ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 60ms (Views: 49.7ms | ActiveRecord: 3.5ms)
+
+
+Completed 200 OK in 64ms (Views: 60.2ms | ActiveRecord: 2.1ms)
+
+
+Completed 200 OK in 61ms (Views: 50.9ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:21:25 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.3ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 40ms (Views: 33.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:21:25 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.3ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:21:26 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.2ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:21:39 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.5ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 219ms (Views: 201.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:21:40 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.5ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 49ms (Views: 41.8ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:21:40 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.2ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:21:50 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/countries"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:22:38 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/countries"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/country" for 127.0.0.1 at 2017-10-02 22:22:45 +0100
+  
+ActionController::RoutingError (uninitialized constant CountryController):
+  
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/country" for 127.0.0.1 at 2017-10-02 22:23:10 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/country"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:23:14 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.3ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 22ms (Views: 16.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:23:19 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.3ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:23:19 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.2ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:23:59 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.2ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 16.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:26:45 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.3ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered countries/index.html.erb within layouts/application (251.7ms)
+Completed 500 Internal Server Error in 260ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `countries' for #<#<Class:0x007fac27c839c8>:0x007fac27c41ac8>
+Did you mean?  @countries):
+    1: <h1>Countries index</h1>
+    2: 
+    3: <%= countries %>
+    4: 
+    5: <%= countries.each do |country| %>
+    6: 
+  
+app/views/countries/index.html.erb:3:in `_app_views_countries_index_html_erb__550703780636431700_70188689134380'
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:26:46 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.4ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Country Load (0.0ms)[0m  [1m[34mSELECT  "countries".* FROM "countries" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered countries/index.html.erb within layouts/application (273.4ms)
+Completed 500 Internal Server Error in 286ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `countries' for #<#<Class:0x007fac27c839c8>:0x007fac239d3768>
+Did you mean?  @countries):
+    1: <h1>Countries index</h1>
+    2: 
+    3: <%= countries %>
+    4: 
+    5: <%= countries.each do |country| %>
+    6: 
+  
+app/views/countries/index.html.erb:3:in `_app_views_countries_index_html_erb__550703780636431700_70188654331880'
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:26:57 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.4ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 40ms (Views: 35.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:27:15 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.2ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 17.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:27:15 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.2ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 22ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:27:16 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.2ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 23.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:27:16 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.4ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 32ms (Views: 28.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:27:34 +0100
+  
+ArgumentError ('Country' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:27:40 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/countries"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:27:41 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/countries"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:27:48 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.3ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 29ms (Views: 23.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:27:49 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.8ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2017-10-02 22:27:49 +0100
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (0.3ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  Rendered countries/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.3ms)
+
+
