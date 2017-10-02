@@ -1,0 +1,21 @@
+<h1>Countries index</h1>
+
+<%= @countries %>
+
+<%= @countries.each do |countries| %>
+
+<p><%= countries.population %></p>
+<ul>
+	<li><%= countries.population %></li>
+	<li><%= countries.language %></li>
+	<li><%= countries.president %></li>
+</ul>
+	<a href="/countries/<%= countries.id %>">Show page</a>
+	<form action="/countries/<%= countries.id %>" method='POST'>
+	<%= token_tag %>
+		<input type="hidden" name="_method" value="DELETE">
+		<input type="submit" value="Delete">
+	</form>	
+	<a href="/countries/new">Create new country</a>
+	<a href="/countries/<%= countries.id %>/edit"> edit </a>
+<% end %>
